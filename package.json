@@ -6,7 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "workspaces": [
+    "projects/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfcustom/aprendiendo-react.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfcustom/aprendiendo-react/issues"
+  },
+  "homepage": "https://github.com/gfcustom/aprendiendo-react#readme",
+  "devDependencies": {
+    "standard": "17.0.0"
+  }
 }
